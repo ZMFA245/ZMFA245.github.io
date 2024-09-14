@@ -1,0 +1,96 @@
+body{
+    margin 0;
+    font font-family: Arial, Helvetica, sans-serif;
+    font size:1.5vw ;
+}
+
+#logo {
+    color: pink;
+    margin: 0px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 7px 7px 11px 3px lightblue;
+    width: 16%
+    text-shadow:
+    1px 1px 0px black, /*bottom-right shadow*/
+
+
+}
+
+ul {
+    margin: 0px
+}
+
+#menu{ padding: 10px;
+    background-color: rgb(242, 176, 82);
+    grid-area: menu;
+    border-radius: 30;
+}
+
+
+
+header{
+    padding: 16px;
+    background-color: rgba(165, 48, 8, 0.868);
+    color: white;
+    text-align: center;
+    grid-area: header;
+    margin: auto;
+}
+
+
+
+#nav ul{ 
+    background-color: yellow;
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between ;
+
+
+}
+
+
+
+
+body> header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton{
+    display:flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between ;
+
+}
+
+
+
+img {
+    border-radius: 50%;
+}
+
+article {
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+    margin: auto 
+
+
+    
+
+}
+
+#asian {
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
