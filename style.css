@@ -71,7 +71,10 @@ body> header > nav > ul{
 
 
 img {
-    border-radius: 50%;
+    border-color: aqua;
+    border-radius: 20%;
+  
+    
 }
 
 article {
